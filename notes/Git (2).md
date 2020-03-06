@@ -1,7 +1,7 @@
 ---
 title: Git
 created: '2019-12-12T05:32:49.090Z'
-modified: '2020-03-05T14:26:42.965Z'
+modified: '2020-03-06T01:53:31.075Z'
 ---
 
 # Git
@@ -11,7 +11,7 @@ modified: '2020-03-05T14:26:42.965Z'
 2. git init --在本地创建一个本地仓库 ，文件夹中多出一个.git文件夹
 3. git config --global user.email "your email" --输入注册阿里云的username和邮箱
 4. git config --global user.name "your name" --global 全局注册 告知身份
-5. ssh-keygen -t rsa --输入指令，生成ssh key，默认在c:/user/yourcount ./ssh文件夹下面的id_rsa.pub文件里面 拷贝到阿里云CODE
+5. ssh-keygen -t rsa --输入指令，生成ssh key，默认在c:/user/yourcount ./ssh文件夹下面的id_rsa.pub文件里面 拷贝到代码版本管理处（GitHub等）
 
 ### 项目源代码管理
 + 新建项目（已有项目）；
