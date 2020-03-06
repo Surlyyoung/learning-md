@@ -1,7 +1,7 @@
 ---
 title: Git
 created: '2019-12-12T05:32:49.090Z'
-modified: '2020-03-06T02:35:07.997Z'
+modified: '2020-03-06T02:39:57.892Z'
 ---
 
 # Git
@@ -27,15 +27,15 @@ modified: '2020-03-06T02:35:07.997Z'
 ### 合并分支
 *开发分支（dev）上的代码达到上线的标准后，要合并到 master 分支*
 + git checkout dev 
-+ git pull 
++ git pull origin dev
 + git checkout master
 - git merge dev
-- git push -u origin master
+- git push -u origin master // (可忽略)
 
 ### 更新master
 *当master代码改动了，需要更新开发分支（dev）上的代码*
 - git checkout master
-- git pull
+- git pull origin master
 - git checkout dev
 - git merge master
-- git push -u origin dev
+- git push -u origin dev // (可忽略)
