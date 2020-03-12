@@ -1,7 +1,9 @@
 ---
+favorited: true
+pinned: true
 title: Markdown
 created: '2020-02-17T08:04:19.242Z'
-modified: '2020-02-17T11:19:26.722Z'
+modified: '2020-03-12T09:51:54.931Z'
 ---
 
 # Markdown

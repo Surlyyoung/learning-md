@@ -1,7 +1,8 @@
 ---
+pinned: true
 title: Git
 created: '2019-12-12T05:32:49.090Z'
-modified: '2020-03-06T02:39:57.892Z'
+modified: '2020-03-12T09:51:51.039Z'
 ---
 
 # Git
